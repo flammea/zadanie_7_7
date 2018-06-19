@@ -13,11 +13,11 @@
 
 .photo-6 { background-image: url("../images/image5.png"); }
 
-.face-1 { background-image: url("https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=1372&q=80"); }
+.face-1 { background-image: url("../images/Kim.png"); }
 
-.face-2 { background-image: url("https://images.unsplash.com/photo-1507875165751-e330e59d8675?auto=format&fit=crop&w=1350&q=80"); background-position: 40% 20%; }
+.face-2 { background-image: url("../images/Rico.png"); }
 
-.face-3 { background-image: url("https://images.unsplash.com/photo-1507101105822-7472b28e22ac?auto=format&fit=crop&w=1352&q=80"); background-position: 30% 10%; }
+.face-3 { background-image: url("../images/Uku.png"); }
 
 .logo-1 { background-image: url("../images/logo1.png"); }
 
@@ -43,7 +43,7 @@ h1 { font-size: 40px; font-weight: 900; }
 
 p { font-size: 16px; color: #c0c0c0; font-family: "PT Serif", serif; font-style: italic; }
 
-.btn { width: 240px; height: 65px; background: #fed136; font-size: 18px; text-transform: uppercase; font-weight: 700; line-height: 50px; color: #fff; }
+.btn { width: 240px; height: 65px; background: #fed136; font-size: 18px; text-transform: uppercase; font-weight: 700; line-height: 50px; color: #fff; border: none; }
 
 .btn a:hover { text-decoration: none; }
 
@@ -136,13 +136,13 @@ p { font-size: 16px; color: #c0c0c0; font-family: "PT Serif", serif; font-style:
 
 .employers p { margin: 15px 0; line-height: 35px; }
 
-.employers .employers-describtion { width: 80%; margin: 0 auto; }
+.employers .employers-description { width: 80%; margin: 0 auto; }
 
-.employers .employers-describtion p { font-style: normal; font-family: "Roboto Slab"; }
+.employers .employers-description p { font-style: normal; font-family: "Roboto Slab"; }
 
 .employers .col { margin: 40px 0; }
 
-.employers .col .face { height: 200px; width: 200px; border-radius: 50%; margin: 10px auto; background-position: center; background-size: 180%; color: transparent; font-size: 25px; line-height: 200px; }
+.employers .col .face { height: 200px; width: 200px; border-radius: 50%; margin: 10px auto; background-position: center; background-size: 100%; color: transparent; font-size: 25px; line-height: 200px; }
 
 .employers .col .face:hover { cursor: pointer; background: rgba(0, 0, 0, 0.8); color: #fed136; }
 
