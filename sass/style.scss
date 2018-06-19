@@ -364,7 +364,7 @@ p {
 		margin: 15px 0;
 		line-height: 35px;
 	}
-	.employers-desc {
+	.employers-description {
 		width: 80%;
 		margin: 0 auto;
 		p {
@@ -472,7 +472,7 @@ p {
 	input {
 		height: 50px;
 	}
-	input:focus {
+	input:focus, textarea:focus {
 		outline: none;
 	}
 	textarea {
@@ -505,8 +505,7 @@ p {
 		background-color: $color-dark;
 		&:hover {
 			background-color: $color-main;
-			transform: scale(1.2);
-			transition: transform 0.5s 0s;
+
 		}
 	}
 	.fa-facebook {

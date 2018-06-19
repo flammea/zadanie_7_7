@@ -136,9 +136,9 @@ p { font-size: 16px; color: #c0c0c0; font-family: "PT Serif", serif; font-style:
 
 .employers p { margin: 15px 0; line-height: 35px; }
 
-.employers .employers-desc { width: 80%; margin: 0 auto; }
+.employers .employers-describtion { width: 80%; margin: 0 auto; }
 
-.employers .employers-desc p { font-style: normal; font-family: "Roboto Slab"; }
+.employers .employers-describtion p { font-style: normal; font-family: "Roboto Slab"; }
 
 .employers .col { margin: 40px 0; }
 
@@ -180,7 +180,7 @@ p { font-size: 16px; color: #c0c0c0; font-family: "PT Serif", serif; font-style:
 
 .contact input { height: 50px; }
 
-.contact input:focus { outline: none; }
+.contact input:focus, .contact textarea:focus { outline: none; }
 
 .contact textarea { resize: none; }
 
@@ -193,7 +193,7 @@ p { font-size: 16px; color: #c0c0c0; font-family: "PT Serif", serif; font-style:
 
 .footer .fa { text-align: center; border-radius: 50%; width: 40px; height: 40px; font-size: 20px; line-height: 40px; cursor: pointer; color: #fff; background-color: #222222; }
 
-.footer .fa:hover { background-color: #fed136; transform: scale(1.2); transition: transform 0.5s 0s; }
+.footer .fa:hover { background-color: #fed136; }
 
 .footer .fa-facebook:hover { background-color: #3b5998; }
 
