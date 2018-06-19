@@ -94,7 +94,6 @@ $color-google: #d95232;
 	padding: 0;
 	font-family: $fonts-main;
 	box-sizing: border-box;
-	outline: none;
 }
 
 h1 {
@@ -387,13 +386,8 @@ p {
 			line-height: 200px; 
 			&:hover {
 				cursor: pointer;
-				-webkit-filter: brightness(70%);
-				-moz-filter: brightness(70%);
-				-o-filter: brightness(70%);
-				-ms-filter: brightness(70%);
-				filter: brightness(70%);
+				background: rgba(0,0,0,0.8);
 				color: $color-main;
-				transition: -webkit-filter 0.7s linear, color 1s linear 0.5s; 
 			}
 		}
 		.signature {
@@ -420,9 +414,7 @@ p {
 					&:hover {
 						line-height: 40px;
 						border: none;
-						color: #fff;
-						transform: scale(1.2);
-						transition: transform 0.5s 0s;	
+						color: #fff;	
 					}
 				}
 				.fa-facebook {
@@ -479,6 +471,9 @@ p {
 	}
 	input {
 		height: 50px;
+	}
+	input:focus {
+		outline: none;
 	}
 	textarea {
 		resize: none;
@@ -603,7 +598,7 @@ p {
 
 @media(max-width: 768px) {
 
-	.main-picture {
+	.welcome {
 		padding: 30px 5vw;
 		nav {
 			h1 {
@@ -650,7 +645,7 @@ p {
 
 @media(max-width: 560px) {
 
-	.main-picture {	
+	.welcome {	
 		.hero {
 			h2 {
 				font-size: 50px;

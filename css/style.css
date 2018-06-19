@@ -37,7 +37,7 @@
 
 .about-pic5 { background-image: url("../images/about5.png"); }
 
-* { margin: 0; padding: 0; font-family: "Montserrat"; box-sizing: border-box; outline: none; }
+* { margin: 0; padding: 0; font-family: "Montserrat"; box-sizing: border-box; }
 
 h1 { font-size: 40px; font-weight: 900; }
 
@@ -144,7 +144,7 @@ p { font-size: 16px; color: #c0c0c0; font-family: "PT Serif", serif; font-style:
 
 .employers .col .face { height: 200px; width: 200px; border-radius: 50%; margin: 10px auto; background-position: center; background-size: 180%; color: transparent; font-size: 25px; line-height: 200px; }
 
-.employers .col .face:hover { cursor: pointer; -webkit-filter: brightness(70%); -moz-filter: brightness(70%); -o-filter: brightness(70%); -ms-filter: brightness(70%); filter: brightness(70%); color: #fed136; transition: -webkit-filter 0.7s linear, color 1s linear 0.5s; }
+.employers .col .face:hover { cursor: pointer; background: rgba(0, 0, 0, 0.8); color: #fed136; }
 
 .employers .col .signature p { line-height: 0px; font-style: normal; }
 
@@ -154,7 +154,7 @@ p { font-size: 16px; color: #c0c0c0; font-family: "PT Serif", serif; font-style:
 
 .employers .col .signature .col .fa { border: 3px solid #000; border-radius: 50%; width: 40px; height: 40px; font-size: 20px; line-height: 35px; cursor: pointer; color: #000; }
 
-.employers .col .signature .col .fa:hover { line-height: 40px; border: none; color: #fff; transform: scale(1.2); transition: transform 0.5s 0s; }
+.employers .col .signature .col .fa:hover { line-height: 40px; border: none; color: #fff; }
 
 .employers .col .signature .col .fa-facebook:hover { background-color: #3b5998; }
 
@@ -179,6 +179,8 @@ p { font-size: 16px; color: #c0c0c0; font-family: "PT Serif", serif; font-style:
 .contact .row div:last-child { margin-bottom: 0; }
 
 .contact input { height: 50px; }
+
+.contact input:focus { outline: none; }
 
 .contact textarea { resize: none; }
 
@@ -219,17 +221,17 @@ p { font-size: 16px; color: #c0c0c0; font-family: "PT Serif", serif; font-style:
   .about .col:first-child * { padding: 0 10px 0 15px; }
   .about .col:nth-child(3) * { padding: 0 15px 0 10px; } }
 
-@media (max-width: 768px) { .main-picture { padding: 30px 5vw; }
-  .main-picture nav h1 { width: 60%; float: clear; margin: 0 20% 15px; text-align: center; }
-  .main-picture nav li { width: 60%; text-align: center; float: clear; padding: 0 10px; margin: 5px 20%; border: 2px solid #242424; background-color: rgba(0, 0, 0, 0.8); }
-  .main-picture nav li:hover { background-color: rgba(0, 0, 0, 0.9); }
-  .main-picture .hero { padding-top: 220px; }
-  .main-picture .hero h2 { font-size: 60px; }
+@media (max-width: 768px) { .welcome { padding: 30px 5vw; }
+  .welcome nav h1 { width: 60%; float: clear; margin: 0 20% 15px; text-align: center; }
+  .welcome nav li { width: 60%; text-align: center; float: clear; padding: 0 10px; margin: 5px 20%; border: 2px solid #242424; background-color: rgba(0, 0, 0, 0.8); }
+  .welcome nav li:hover { background-color: rgba(0, 0, 0, 0.9); }
+  .welcome .hero { padding-top: 220px; }
+  .welcome .hero h2 { font-size: 60px; }
   .about .col p { font-size: 11px; }
   .contact .btn { margin-top: 30px; } }
 
-@media (max-width: 560px) { .main-picture .hero h2 { font-size: 50px; }
-  .main-picture .hero h1 { font-size: 34px; }
+@media (max-width: 560px) { .welcome .hero h2 { font-size: 50px; }
+  .welcome .hero h1 { font-size: 34px; }
   .about .row:last-child { height: 200px; }
   .about .about-picture { width: 150px; height: 150px; }
   .about .line { height: 130px; } }
